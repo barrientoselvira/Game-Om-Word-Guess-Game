@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<link href="https://fonts.googleapis.com/css?family=Gugi|Muli" rel="stylesheet">
+
+<script src="assets/javascript/game.js"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css?family=Pacifico|Poiret+One|Questrial" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="assets/css/gamestyle.css">
+
+</head>
+<body id="background" src="assets/images/karl-marion-334325-unsplash.jpg">
+
+<div class="container">
+        <div class="jumbotron">
+                <h1 class="display-4">Game Om</h1>
+                <img id="lotus" src="assets/images/215704.png" alt="lotus">
+            
+                <p class="lead">Practice your yoga pose knowledge while you play.</p>
+       <button id="buttonstart" onclick="startGame();play();" class="btn btn-outline-secondary">Start</button>
+                <audio id="audio" src="assets/sounds/Zen Temple Bell-SoundBible.com-2070036999.mp3"></audio>
+
+        </div>
+       
+    <div class="row">
+        <div class="col-3">
+            <p id="guess">Pose Name:</p>
+        
+  </div>
+        <div class="col-6">
+            <h3 id="wordspaces"></h3>
+        </div>
+ </div>
+
+
+
+
+<div class="row">
+    <div class="col">
+<p id= "win">Wins:</p><span id="wins"></span>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+            <p="correctLetter">Letters Guessed:</p><span id="correctLetter"></span>
+        </div>
+</div>
+<div class="row">
+    <div class="col">
+<p="guessesRemaining">Guesses Remaining:</p><span id="guessesRemaining"></span>
+    </div>
+</div>
+    
+
+
+</div>
+</div>
+
+
+
+
+</body>
+</html>

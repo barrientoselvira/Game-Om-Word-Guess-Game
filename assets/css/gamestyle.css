@@ -1,0 +1,92 @@
+h1 {
+    font-size: 24px;
+    align-content: center;    
+}
+
+p {
+    padding-top: 25px;
+    font-family: 'Questrial', sans-serif;
+
+}
+
+
+#guess{    
+    font-family: 'Questrial', sans-serif;
+    font-size: 24px;
+    margin: 25px;
+    
+}
+
+#wordspaces{
+    padding: 20px;
+    margin-top: 25px;
+    color: #EBB7B7;
+    align-content: center;
+   
+}
+
+#background {
+    border: 5px #EBB7B7 solid;  
+    margin: 60px;
+    /*border: 10px #355A6A solid; */
+}
+
+#lotus {
+    width: 20%;
+    
+}
+
+.jumbotron {
+    background-color: white;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-weight: 200;
+}
+
+.display-4{
+    font-family: 'Poiret One', cursive;
+    color: #355A6A;
+    font-weight: 300;
+    font-size: 60px;
+}
+
+.btn { 
+  
+    font-family: 'Questrial', sans-serif;
+    margin-top: 5%;
+    color: #355A6A;
+}
+
+ hover {
+    color: #355A6A;
+}
+
+#win {
+    font-family: 'Questrial', sans-serif;
+
+    align-content: center;
+}
+
+#guessesRemaining {
+    font-family: 'Questrial', sans-serif;
+    font-size: 42px;
+    padding-left: 50px;
+    color: #355A6A;
+}
+
+#correctLetter {
+    font-family: 'Questrial', sans-serif;
+
+    padding-left: 50px;
+}
+
+
+.row {
+    background-color: #F8FBFC;
+    margin: 10px;
+}
+
+
+
+
+    
