@@ -84,9 +84,9 @@ document.onkeyup = function (event) {
              correctLetterCount.push(i);
              console.log(" " + underScores);
              underScores[i]=playerChoice;
-            incorrectChoice = false;
-            document.getElementById("wordspaces").innerHTML = underScores.join (" ");
-            document.getElementById("correctLetter").innerHTML = correctLetter.join (" ");
+             incorrectChoice = false;
+             document.getElementById("wordspaces").innerHTML = underScores.join (" ");
+             document.getElementById("correctLetter").innerHTML = correctLetter.join (" ");
 
             //player gets all correct letters, they get a point
             if (underScores.indexOf("_") < 0 ) {
@@ -114,8 +114,6 @@ document.onkeyup = function (event) {
              startGame();  
     }
       }
-
-    startGame();
 
 
        
